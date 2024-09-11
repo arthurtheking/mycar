@@ -28,7 +28,7 @@ def error(update: Update, context: CallbackContext) -> None:
 def main():
     """Start the bot."""
     # Get the bot token from the environment variable
-    TOKEN = os.getenv("TOKEN")
+    TOKEN = os.getenv("7321470573:AAGYhC_ppB-jWj18YMMsu_IfVoCua9SBYxc")
     
     if not TOKEN:
         logger.error("Bot token not found. Please set the TOKEN environment variable.")
